@@ -10,9 +10,10 @@ public class Drill {
         watt = (int) (Math.random()  *1200) + 800;      //Zufaellige Watt Zahl
         age = (int)  (Math.random() *10);               //Zufaelliges Alter
         price = (double) (Math.random() *500 +50);
-        System.out.println("Age: " + age);
-        System.out.println("watt: " + watt);
-        System.out.println("Price: " + price);
+        name = "SuperBohrVI";
+        //System.out.println("Age: " + age);
+        //System.out.println("watt: " + watt);
+        //System.out.println("Price: " + price);
     }
 
 }

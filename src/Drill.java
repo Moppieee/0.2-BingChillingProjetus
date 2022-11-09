@@ -1,3 +1,6 @@
+import javax.naming.Name;
+import java.util.jar.Attributes;
+
 public class Drill {
     private int watt;     //Attribute
     private String name;
@@ -15,5 +18,13 @@ public class Drill {
         //System.out.println("watt: " + watt);
         //System.out.println("Price: " + price);
     }
-
+    public int getAge() {
+        return age;
+    }
+    public int getWatt() {
+        return watt;
+    }
+    public String getName() {
+        return name;
+    }
 }

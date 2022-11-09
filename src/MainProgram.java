@@ -6,6 +6,7 @@ public class MainProgram {
     private boolean broken;
 
 public class Drill{
+    watt = (int) Math.random();
 
 }
 

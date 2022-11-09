@@ -8,5 +8,5 @@ public class MainProgram {
             System.out.println("D2: " +"Watt "+d2.getWatt()+" Age "+d1.getAge());
             System.out.println("D3: " +"Watt "+d3.getWatt()+" Age "+d1.getAge());
         }
-
+//done
 }
